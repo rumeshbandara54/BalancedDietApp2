@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B499FC52969770B000B690B /* desingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B499FC42969770B000B690B /* desingTableViewCell.swift */; };
+		2B499FC829697FDA000B690B /* NutritionHeaderUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B499FC729697FDA000B690B /* NutritionHeaderUiView.swift */; };
+		2B4F83C92969D04E00547690 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4F83C82969D04E00547690 /* LoginViewController.swift */; };
+		2B5453A0296A683A002C819C /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B54539F296A683A002C819C /* SignUpController.swift */; };
+		2B5453A3296A686F002C819C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5453A2296A686F002C819C /* LoginView.swift */; };
+		2B5453A6296A68A7002C819C /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5453A5296A68A7002C819C /* SignUpView.swift */; };
+		2B5453AA296A6A42002C819C /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5453A9296A6A42002C819C /* UIColor+extension.swift */; };
+		2B5453AE296A6A5D002C819C /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5453AD296A6A5D002C819C /* UIButton+Extension.swift */; };
+		2B5453B1296A6A76002C819C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5453B0296A6A76002C819C /* Extensions.swift */; };
+		2B5453B4296A6A8E002C819C /* UIStackView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5453B3296A6A8E002C819C /* UIStackView+Extension.swift */; };
+		2B5453B7296A6AB5002C819C /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5453B6296A6AB5002C819C /* UITextField+Extension.swift */; };
+		2B5453BB296A6C93002C819C /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 2B5453BA296A6C93002C819C /* SDWebImage */; };
+		2B5453BD296A6C93002C819C /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2B5453BC296A6C93002C819C /* SDWebImageMapKit */; };
+		2BE95A6429694E06001261CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE95A6329694E06001261CF /* AppDelegate.swift */; };
+		2BE95A6629694E06001261CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE95A6529694E06001261CF /* SceneDelegate.swift */; };
+		2BE95A6E29694E06001261CF /* Balanced_Diet_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2BE95A6C29694E06001261CF /* Balanced_Diet_App.xcdatamodeld */; };
+		2BE95A7029694E07001261CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE95A6F29694E07001261CF /* Assets.xcassets */; };
+		2BE95A7329694E07001261CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE95A7129694E07001261CF /* LaunchScreen.storyboard */; };
+		2BE95A8129695044001261CF /* TabBarViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE95A8029695044001261CF /* TabBarViewControllers.swift */; };
+		2BE95A87296951DF001261CF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE95A86296951DF001261CF /* HomeViewController.swift */; };
+		2BE95A8B29695286001261CF /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE95A8A29695286001261CF /* FavouriteViewController.swift */; };
+		2BE95A8F296952DB001261CF /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE95A8E296952DB001261CF /* SearchViewController.swift */; };
+		2BE95A96296959D5001261CF /* nutritionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE95A95296959D5001261CF /* nutritionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B499FC42969770B000B690B /* desingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = desingTableViewCell.swift; sourceTree = "<group>"; };
+		2B499FC729697FDA000B690B /* NutritionHeaderUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionHeaderUiView.swift; sourceTree = "<group>"; };
+		2B4F83C82969D04E00547690 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2B54539F296A683A002C819C /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		2B5453A2296A686F002C819C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		2B5453A5296A68A7002C819C /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		2B5453A9296A6A42002C819C /* UIColor+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+extension.swift"; sourceTree = "<group>"; };
+		2B5453AD296A6A5D002C819C /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		2B5453B0296A6A76002C819C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		2B5453B3296A6A8E002C819C /* UIStackView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extension.swift"; sourceTree = "<group>"; };
+		2B5453B6296A6AB5002C819C /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		2BE95A6029694E06001261CF /* Balanced Diet App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Balanced Diet App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE95A6329694E06001261CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2BE95A6529694E06001261CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2BE95A6D29694E06001261CF /* Balanced_Diet_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Balanced_Diet_App.xcdatamodel; sourceTree = "<group>"; };
+		2BE95A6F29694E07001261CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BE95A7229694E07001261CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BE95A7429694E07001261CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BE95A8029695044001261CF /* TabBarViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewControllers.swift; sourceTree = "<group>"; };
+		2BE95A86296951DF001261CF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2BE95A8A29695286001261CF /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
+		2BE95A8E296952DB001261CF /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		2BE95A95296959D5001261CF /* nutritionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nutritionViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BE95A5D29694E06001261CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5453BD296A6C93002C819C /* SDWebImageMapKit in Frameworks */,
+				2B5453BB296A6C93002C819C /* SDWebImage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B499FC329697662000B690B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2B499FC42969770B000B690B /* desingTableViewCell.swift */,
+				2B499FC729697FDA000B690B /* NutritionHeaderUiView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2B4F83C72969D01800547690 /* Login Part */ = {
+			isa = PBXGroup;
+			children = (
+				2B5453A8296A68CA002C819C /* Extensions */,
+				2B4F83C82969D04E00547690 /* LoginViewController.swift */,
+				2B54539F296A683A002C819C /* SignUpController.swift */,
+				2B5453A2296A686F002C819C /* LoginView.swift */,
+				2B5453A5296A68A7002C819C /* SignUpView.swift */,
+			);
+			path = "Login Part";
+			sourceTree = "<group>";
+		};
+		2B5453A8296A68CA002C819C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2B5453A9296A6A42002C819C /* UIColor+extension.swift */,
+				2B5453AD296A6A5D002C819C /* UIButton+Extension.swift */,
+				2B5453B0296A6A76002C819C /* Extensions.swift */,
+				2B5453B3296A6A8E002C819C /* UIStackView+Extension.swift */,
+				2B5453B6296A6AB5002C819C /* UITextField+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2BE95A5729694E06001261CF = {
+			isa = PBXGroup;
+			children = (
+				2BE95A6229694E06001261CF /* Balanced Diet App */,
+				2BE95A6129694E06001261CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BE95A6129694E06001261CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BE95A6029694E06001261CF /* Balanced Diet App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BE95A6229694E06001261CF /* Balanced Diet App */ = {
+			isa = PBXGroup;
+			children = (
+				2B4F83C72969D01800547690 /* Login Part */,
+				2B499FC329697662000B690B /* Views */,
+				2BE95A9929695A8D001261CF /* Models */,
+				2BE95A852969517F001261CF /* Main page */,
+				2BE95A6329694E06001261CF /* AppDelegate.swift */,
+				2BE95A8029695044001261CF /* TabBarViewControllers.swift */,
+				2BE95A6529694E06001261CF /* SceneDelegate.swift */,
+				2BE95A6F29694E07001261CF /* Assets.xcassets */,
+				2BE95A7129694E07001261CF /* LaunchScreen.storyboard */,
+				2BE95A7429694E07001261CF /* Info.plist */,
+				2BE95A6C29694E06001261CF /* Balanced_Diet_App.xcdatamodeld */,
+			);
+			path = "Balanced Diet App";
+			sourceTree = "<group>";
+		};
+		2BE95A852969517F001261CF /* Main page */ = {
+			isa = PBXGroup;
+			children = (
+				2BE95A942969593D001261CF /* Home page */,
+				2BE95A8A29695286001261CF /* FavouriteViewController.swift */,
+				2BE95A8D2969529E001261CF /* Search Page */,
+			);
+			path = "Main page";
+			sourceTree = "<group>";
+		};
+		2BE95A8D2969529E001261CF /* Search Page */ = {
+			isa = PBXGroup;
+			children = (
+				2BE95A8E296952DB001261CF /* SearchViewController.swift */,
+			);
+			path = "Search Page";
+			sourceTree = "<group>";
+		};
+		2BE95A942969593D001261CF /* Home page */ = {
+			isa = PBXGroup;
+			children = (
+				2BE95A86296951DF001261CF /* HomeViewController.swift */,
+				2BE95A95296959D5001261CF /* nutritionViewController.swift */,
+			);
+			path = "Home page";
+			sourceTree = "<group>";
+		};
+		2BE95A9929695A8D001261CF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BE95A5F29694E06001261CF /* Balanced Diet App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BE95A7729694E07001261CF /* Build configuration list for PBXNativeTarget "Balanced Diet App" */;
+			buildPhases = (
+				2BE95A5C29694E06001261CF /* Sources */,
+				2BE95A5D29694E06001261CF /* Frameworks */,
+				2BE95A5E29694E06001261CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Balanced Diet App";
+			packageProductDependencies = (
+				2B5453BA296A6C93002C819C /* SDWebImage */,
+				2B5453BC296A6C93002C819C /* SDWebImageMapKit */,
+			);
+			productName = "Balanced Diet App";
+			productReference = 2BE95A6029694E06001261CF /* Balanced Diet App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BE95A5829694E06001261CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					2BE95A5F29694E06001261CF = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 2BE95A5B29694E06001261CF /* Build configuration list for PBXProject "Balanced Diet App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BE95A5729694E06001261CF;
+			packageReferences = (
+				2B5453B9296A6C93002C819C /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
+			productRefGroup = 2BE95A6129694E06001261CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BE95A5F29694E06001261CF /* Balanced Diet App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BE95A5E29694E06001261CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE95A7329694E07001261CF /* LaunchScreen.storyboard in Resources */,
+				2BE95A7029694E07001261CF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BE95A5C29694E06001261CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5453B7296A6AB5002C819C /* UITextField+Extension.swift in Sources */,
+				2BE95A6E29694E06001261CF /* Balanced_Diet_App.xcdatamodeld in Sources */,
+				2BE95A8F296952DB001261CF /* SearchViewController.swift in Sources */,
+				2BE95A6429694E06001261CF /* AppDelegate.swift in Sources */,
+				2BE95A96296959D5001261CF /* nutritionViewController.swift in Sources */,
+				2B499FC829697FDA000B690B /* NutritionHeaderUiView.swift in Sources */,
+				2B5453B4296A6A8E002C819C /* UIStackView+Extension.swift in Sources */,
+				2B5453AE296A6A5D002C819C /* UIButton+Extension.swift in Sources */,
+				2BE95A8129695044001261CF /* TabBarViewControllers.swift in Sources */,
+				2BE95A8B29695286001261CF /* FavouriteViewController.swift in Sources */,
+				2B499FC52969770B000B690B /* desingTableViewCell.swift in Sources */,
+				2BE95A6629694E06001261CF /* SceneDelegate.swift in Sources */,
+				2BE95A87296951DF001261CF /* HomeViewController.swift in Sources */,
+				2B5453A6296A68A7002C819C /* SignUpView.swift in Sources */,
+				2B5453A3296A686F002C819C /* LoginView.swift in Sources */,
+				2B5453AA296A6A42002C819C /* UIColor+extension.swift in Sources */,
+				2B5453B1296A6A76002C819C /* Extensions.swift in Sources */,
+				2B4F83C92969D04E00547690 /* LoginViewController.swift in Sources */,
+				2B5453A0296A683A002C819C /* SignUpController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2BE95A7129694E07001261CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BE95A7229694E07001261CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BE95A7529694E07001261CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2BE95A7629694E07001261CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BE95A7829694E07001261CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Balanced Diet App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "balancedDietApp.Balanced-Diet-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BE95A7929694E07001261CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Balanced Diet App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "balancedDietApp.Balanced-Diet-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BE95A5B29694E06001261CF /* Build configuration list for PBXProject "Balanced Diet App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE95A7529694E07001261CF /* Debug */,
+				2BE95A7629694E07001261CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BE95A7729694E07001261CF /* Build configuration list for PBXNativeTarget "Balanced Diet App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE95A7829694E07001261CF /* Debug */,
+				2BE95A7929694E07001261CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2B5453B9296A6C93002C819C /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2B5453BA296A6C93002C819C /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B5453B9296A6C93002C819C /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		2B5453BC296A6C93002C819C /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B5453B9296A6C93002C819C /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		2BE95A6C29694E06001261CF /* Balanced_Diet_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2BE95A6D29694E06001261CF /* Balanced_Diet_App.xcdatamodel */,
+			);
+			currentVersion = 2BE95A6D29694E06001261CF /* Balanced_Diet_App.xcdatamodel */;
+			path = Balanced_Diet_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2BE95A5829694E06001261CF /* Project object */;
+}
