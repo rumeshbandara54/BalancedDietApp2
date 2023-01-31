@@ -58,7 +58,6 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         
     }
     
-    // called when view is about to appear
     override func viewWillAppear(_ animated: Bool) {
         
         print("hide NavigationBar bar")
